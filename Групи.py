@@ -158,7 +158,7 @@ def admin_window(filename):
                                    file = open(filename + '/Exel.csv', 'w')
                      else:
                             file = open(file, 'w')
-                     line = [len(list)+1,name_in.get(),point_in.get(),form_in.get(),'PA']
+                     line = [len(list)+1,name_in.get(),point_in.get(),form_in.get(),'ПА']
                      list.append(line)
                      csv.writer(file, delimiter = ';').writerows(list)
                      temp_win.destroy()
